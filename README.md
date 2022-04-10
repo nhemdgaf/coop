@@ -6,3 +6,5 @@
 5. Open .env file and change the database name to coop
 6. php artisan key:generate
 7. php artisan migrate
+8. npm install
+9. npm run dev

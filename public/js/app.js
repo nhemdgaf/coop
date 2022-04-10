@@ -2504,7 +2504,7 @@ __webpack_require__.r(__webpack_exports__);
         'month': this.selectedMonth,
         'contribution': this.contribution
       };
-      axios.post('/api/capital-share', data, {}).then(function () {
+      axios.post('/api/capital-share/add', data, {}).then(function () {
         _this2.getCapitalShares();
       })["catch"](function (err) {
         console.log(err);

@@ -272,7 +272,7 @@ export default {
                 'contribution': this.contribution
             }
 
-            axios.post('/api/capital-share', data, {})
+            axios.post('/api/capital-share/add', data, {})
             .then(()=>{
                 this.getCapitalShares();
             })
